@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fullscreen Indicated Rotate Slider</title>
+    <link rel="stylesheet" href="_css/meyerreset.css">
+    <link rel="stylesheet" href="_css/style.css">
+  </head>
+  <body>
+  <div class="container">
+  		<!-- Slider container -->
+  		<div id="key_visual">
+  			<ul class="clearfix">
+				<li id="key_visual_slider01"></li>
+				<li id="key_visual_slider02"></li>
+				<li id="key_visual_slider03"></li>
+  			</ul>
+ 		</div>
+ 		<!-- Slider indicator container -->
+  		<ul id="main_slider" class="clearfix">
+			<li>
+				<div>
+					<ul id="slider_dot_indicator" class="clearfix">
+						<li data-id="#key_visual_slider01" class="active fast_transition"></li>
+						<li data-id="#key_visual_slider02" class="fast_transition"></li>
+						<li data-id="#key_visual_slider03" class="fast_transition"></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+  </div>
+	<script src="_js/jquery.js"></script> 	
+	<script src="_js/easing-min.js"></script>
+	<script src="_js/jquery.touchwipe.min.js"></script>
+	<script src="_js/jquery.rotate.indicator.slider.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function() {
+			/* Calling the slider plugin */
+			$('#key_visual').rotateSlider();
+		});
+	</script>
+  </body>
+</html>
