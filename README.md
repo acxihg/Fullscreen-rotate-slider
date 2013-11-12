@@ -3,6 +3,9 @@ Fullscreen-rotate-slider
 
 A fullscreen slider plugin with indicator control
 
+Touch swipe plugin from https://github.com/mattbryson/TouchSwipe-Jquery-Plugin  
+Easing from: http://gsgd.co.uk/sandbox/jquery/easing/
+
 How to use:
 
 1. First, put the slider content as a list in a div with id key_visual, like
